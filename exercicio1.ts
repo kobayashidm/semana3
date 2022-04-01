@@ -8,7 +8,7 @@ const ingredientes = [
   'pão com gergelim'
 ];
 
-
+debugger
 const fazUmBigMac = (ingredientes: string[]): string => {
   let bigMac : string = ingredientes.reduce(meuBigMac);
   function meuBigMac(total :string , palavra: string)
